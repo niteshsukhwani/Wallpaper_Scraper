@@ -1,0 +1,6 @@
+pip install urllib
+pip install webbrowser
+pip install selenium 
+pip install numpy 
+pip install os
+pip install re
