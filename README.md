@@ -4,7 +4,15 @@ Scrape the wallpaper from wallpaper.cc given the search query and number of wall
 ## Usage
 
 ```python
+# If you have chromedriver setup in your system
 from Wallpaper_Scraper import Wallpaper_Scraper
+
+object = Wallpaper_Scraper()
+object.wallpaper_scraper(search_query = 'beast', num_of_img = 20)
+
+
+# If you don't have chromedriver and want to scrape using BeautifulSoup
+from wallpaper_scraper_beautifulsoup import Wallpaper_Scraper
 
 object = Wallpaper_Scraper()
 object.wallpaper_scraper(search_query = 'beast', num_of_img = 20)
