@@ -16,6 +16,11 @@ from wallpaper_scraper_beautifulsoup import Wallpaper_Scraper
 
 object = Wallpaper_Scraper()
 object.wallpaper_scraper(search_query = 'beast', num_of_img = 20)
+
+# If you are totally new into python just download Wallpaper_Scraper-0.1-py3-none-any.whl and 
+# pip install Wallpaper_Scraper-0.1-py3-none-any.whl
+import Wallpaper_Scraper.Scraper
+Scraper('beast', 20)
 ```
 
 ## Contributing
